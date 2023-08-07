@@ -2,9 +2,21 @@
   "name": "buggy-connect-auth",
   "version": "0.0.1",
   "description": "Module to authentication BuggyConnect App",
-  "main": "index.ts",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "jest"
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   },
   "repository": {
     "type": "git",
@@ -17,7 +29,6 @@
     "validation"
   ],
   "author": "Marcelio Santana",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcelio911/buggy-connect-auth/issues"
   },
