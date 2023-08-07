@@ -1,0 +1,25 @@
+{
+  "name": "buggy-connect-auth",
+  "version": "0.0.1",
+  "description": "Module to authentication BuggyConnect App",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelio911/buggy-connect-auth.git"
+  },
+  "keywords": [
+    "Auth",
+    "users",
+    "profile",
+    "validation"
+  ],
+  "author": "Marcelio Santana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelio911/buggy-connect-auth/issues"
+  },
+  "homepage": "https://github.com/marcelio911/buggy-connect-auth#readme"
+}
