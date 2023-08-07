@@ -1,5 +1,5 @@
 {
-  "name": "@buggy-connect/auth",
+  "name": "@buggy-connect/module-template-typescript",
   "version": "0.0.1",
   "description": "Module to authentication BuggyConnect App",
   "main": "dist/app.js",
