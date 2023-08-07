@@ -2,7 +2,7 @@
   "name": "@buggy-connect/module-template-typescript",
   "version": "0.0.1",
   "description": "Module to authentication BuggyConnect App",
-  "main": "dist/app.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
     "lint": "eslint . --ext .ts",
